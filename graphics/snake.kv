@@ -1,0 +1,30 @@
+<Playground>
+    snake: snake_id
+    apple: apple_id
+
+    Snake:
+        id: snake_id
+        width: root.width / root.res_playground[0]
+        height: root.height / root.res_playground[1]
+
+    Apple:
+        id: apple_id
+        width: root.width / root.res_playground[0]
+        height: root.height / root.res_playground[1]
+
+    Label:
+        id: score
+
+<Snake>
+    head: snake_head_id
+    tail: snake_tail_id
+
+    SnakeHead:
+        id: snake_head_id
+        width: root.width
+        height: root.height
+
+    SnakeTail:
+        id: snake_tail_id
+        width: root.width
+        height: root.height
